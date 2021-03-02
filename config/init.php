@@ -3,7 +3,7 @@
 //DEFAULT GLOBAL CONST
 
 
-define("DEBUG", true);                              // true-false dev mode
+define("DEBUG", false);                              // true-false dev mode
 
 define("ROOT", dirname(__DIR__));              // root dir
 define("WWW", ROOT . '/public');                    // public dir
