@@ -22,12 +22,16 @@
         <item name="GROUP_NODE:lms" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c6348af-001b-4ea9-9575-cbf79e70fd08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/read.md" afterDir="false" />
-    </list>
+    <list default="true" id="5c6348af-001b-4ea9-9575-cbf79e70fd08" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,6 +88,7 @@
       <updated>1614632524773</updated>
       <workItem from="1614632526537" duration="2888000" />
       <workItem from="1614684737353" duration="6088000" />
+      <workItem from="1614690897758" duration="727000" />
     </task>
     <servers />
   </component>
@@ -120,7 +125,19 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -130,6 +147,7 @@
         <entry key="1" value="TOOL_WINDOW" />
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1805" y="383" width="468" height="441" key="#Notifications" timestamp="1614633357333">
