@@ -1,6 +1,9 @@
 <?php
 
-require_once dirname(__DIR__) . '/config/init.php';
+require_once dirname(__DIR__) . '/config/init.php';        // default init params
+require_once LIBS . '/functions.php';                           // functions file
+
+$app = new \lms\App();
 
 
-echo $_SERVER['QUERY_STRING'];
+throw new Exception('NOT FOUND',404);
