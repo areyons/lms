@@ -37,6 +37,7 @@ class ErrorHandler
 
         error_log("[" . date('Y-m-d H:i:s') . "] Error: {$message} | File: {$file} | String: {$string}\n==============\n", 3, ROOT . '/tmp/errors/errors.log');
 
+        return $this;
     }
 
     // print errors method
@@ -55,7 +56,6 @@ class ErrorHandler
             include CORE .  '/base/errors.php';
         }
 
-        return $this;
     }
 
 }
