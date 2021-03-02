@@ -1,6 +1,8 @@
 <?php
 
 require_once dirname(__DIR__) . '/config/init.php';
+require_once LIBS . '/functions.php';
 
+new \lms\App();
 
-echo $_SERVER['QUERY_STRING'];
+\lms\App::$name;
