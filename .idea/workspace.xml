@@ -26,7 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c6348af-001b-4ea9-9575-cbf79e70fd08" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1614632524773</updated>
       <workItem from="1614632526537" duration="2888000" />
-      <workItem from="1614684737353" duration="5458000" />
+      <workItem from="1614684737353" duration="6088000" />
     </task>
     <servers />
   </component>
