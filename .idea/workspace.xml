@@ -32,10 +32,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c6348af-001b-4ea9-9575-cbf79e70fd08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/controllers/MainController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/errors/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/errors/errors.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/lms/core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/lms/core/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +107,7 @@
       <workItem from="1614684737353" duration="6088000" />
       <workItem from="1614690897758" duration="20685000" />
       <workItem from="1614761848161" duration="10309000" />
-      <workItem from="1614776209936" duration="8925000" />
+      <workItem from="1614776209936" duration="9559000" />
     </task>
     <servers />
   </component>
