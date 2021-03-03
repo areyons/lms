@@ -18,11 +18,11 @@ class App
 
         $query = trim($_SERVER['QUERY_STRING'], '/');    // get query from url
 
-        self::$app = Registry::instance();
+        self::$app = Registry::instance();                      // put settings in to the $app container
 
-        $this->getSettings();
+        $this->getSettings();                                   // get settings
 
-
+        Router::dispatch($query);                               // sent query to the router
 
 
     }

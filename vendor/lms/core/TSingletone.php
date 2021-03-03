@@ -7,7 +7,7 @@ namespace lms;
 trait TSingletone
 {
 
-    private static $instance;
+    private static $instance = null;
 
     public static function instance()
     {
