@@ -35,14 +35,24 @@ class Router
     {
 
         if (self::matchRoute($url)) {
-            $controller = APP . '\controllers\\' . self::$route['prefix'] . self::$route['controller'] . 'Controller';
+
+            $controller = 'app\controllers\\' . self::$route['prefix'] . self::$route['controller'] . 'Controller';
 
             if (class_exists($controller)) {
+
                 $controllerObject = new $controller(self::$route);
-                echo $action = self::lowerCamelCase(self::$route['action']) . 'Action';
+                $action = self::lowerCamelCase(self::$route['action']) . 'Action';
+
+                if (method_exists($controllerObject, $action)) {
+                    $controllerObject->$action();
+                } else {
+                    throw new \Exception("Method: $controller::$action - does not exist", 404);
+                }
+
             } else {
                 throw new \Exception("Controller: $controller - does not exist", 404);
             }
+
         } else {
             throw new \Exception('Page Not Found', 404);
         }
@@ -83,8 +93,6 @@ class Router
 
                 // put it in to $route
                 self::$route = $route;
-
-                debug(self::$route);
 
                 return true;
             }
