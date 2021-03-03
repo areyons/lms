@@ -1,0 +1,92 @@
+[2021-03-03 01:31:18] Error: NOT FOUND | File: D:\Work\OS\OpenServer\domains\lms.loc\public\index.php | String: 9
+==============
+[2021-03-03 01:50:58] Error: NOT FOUND | File: D:\Work\OS\OpenServer\domains\lms.loc\public\index.php | String: 9
+==============
+[2021-03-03 01:52:28] Error: NOT FOUND | File: D:\Work\OS\OpenServer\domains\lms.loc\public\index.php | String: 9
+==============
+[2021-03-03 11:57:23] Error: NOT FOUND | File: D:\Work\OS\OpenServer\domains\lms.loc\public\index.php | String: 9
+==============
+[2021-03-03 11:57:45] Error: NOT FOUND | File: D:\Work\OS\OpenServer\domains\lms.loc\public\index.php | String: 9
+==============
+[2021-03-03 11:57:46] Error: NOT FOUND | File: D:\Work\OS\OpenServer\domains\lms.loc\public\index.php | String: 9
+==============
+[2021-03-03 13:06:07] Error: NOT FOUND | File: D:\Work\OS\OpenServer\domains\lms.loc\public\index.php | String: 9
+==============
+[2021-03-03 13:36:43] Error: NOT FOUND | File: D:\Work\OS\OpenServer\domains\lms.loc\public\index.php | String: 9
+==============
+[2021-03-03 13:48:28] Error: NOT FOUND | File: D:\Work\OS\OpenServer\domains\lms.loc\public\index.php | String: 9
+==============
+[2021-03-03 14:34:00] Error: Call to undefined method lms\Registry::instance() | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\App.php | String: 21
+==============
+[2021-03-03 14:34:21] Error: Call to a member function setProperties() on null | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\App.php | String: 36
+==============
+[2021-03-03 15:21:40] Error: Page Not Found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Router.php | String: 40
+==============
+[2021-03-03 15:23:12] Error: Page Not Found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Router.php | String: 40
+==============
+[2021-03-03 15:24:06] Error: Page Not Found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Router.php | String: 40
+==============
+[2021-03-03 15:24:22] Error: Page Not Found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Router.php | String: 40
+==============
+[2021-03-03 15:24:24] Error: Page Not Found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Router.php | String: 40
+==============
+[2021-03-03 15:24:30] Error: Page Not Found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Router.php | String: 40
+==============
+[2021-03-03 15:25:20] Error: Page Not Found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Router.php | String: 40
+==============
+[2021-03-03 15:27:13] Error: Page Not Found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Router.php | String: 40
+==============
+[2021-03-03 15:27:32] Error: Page Not Found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Router.php | String: 40
+==============
+[2021-03-03 15:27:32] Error: Page Not Found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Router.php | String: 40
+==============
+[2021-03-03 15:27:33] Error: Page Not Found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Router.php | String: 40
+==============
+[2021-03-03 15:27:34] Error: Page Not Found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Router.php | String: 40
+==============
+[2021-03-03 15:27:34] Error: Page Not Found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Router.php | String: 40
+==============
+[2021-03-03 15:27:36] Error: Page Not Found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Router.php | String: 40
+==============
+[2021-03-03 15:27:36] Error: Page Not Found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Router.php | String: 40
+==============
+[2021-03-03 15:27:36] Error: Page Not Found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Router.php | String: 40
+==============
+[2021-03-03 15:27:37] Error: Page Not Found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Router.php | String: 40
+==============
+[2021-03-03 15:27:37] Error: Page Not Found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Router.php | String: 40
+==============
+[2021-03-03 15:27:37] Error: Page Not Found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Router.php | String: 40
+==============
+[2021-03-03 15:27:37] Error: Page Not Found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Router.php | String: 40
+==============
+[2021-03-03 15:27:43] Error: Page Not Found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Router.php | String: 40
+==============
+[2021-03-03 15:30:02] Error: Page Not Found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Router.php | String: 40
+==============
+[2021-03-03 15:30:03] Error: Page Not Found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Router.php | String: 40
+==============
+[2021-03-03 15:30:03] Error: Page Not Found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Router.php | String: 40
+==============
+[2021-03-03 15:30:03] Error: Page Not Found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Router.php | String: 40
+==============
+[2021-03-03 15:30:18] Error: Page Not Found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Router.php | String: 40
+==============
+[2021-03-03 15:30:51] Error: Page Not Found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Router.php | String: 40
+==============
+[2021-03-03 16:58:56] Error: Page Not Found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Router.php | String: 40
+==============
+[2021-03-03 20:21:15] Error: Class D:\Work\OS\OpenServer\domains\lms.loc/app\controllers\MainController does not exist | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Router.php | String: 44
+==============
+[2021-03-03 20:21:16] Error: Class D:\Work\OS\OpenServer\domains\lms.loc/app\controllers\MainController does not exist | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Router.php | String: 44
+==============
+[2021-03-03 20:21:16] Error: Class D:\Work\OS\OpenServer\domains\lms.loc/app\controllers\MainController does not exist | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Router.php | String: 44
+==============
+[2021-03-03 20:21:25] Error: Class D:\Work\OS\OpenServer\domains\lms.loc/app\controllers\MainController does not exist | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Router.php | String: 44
+==============
+[2021-03-03 20:22:32] Error: Controller: D:\Work\OS\OpenServer\domains\lms.loc/app\controllers\MainController - does not exist | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Router.php | String: 44
+==============
+[2021-03-03 20:22:33] Error: Controller: D:\Work\OS\OpenServer\domains\lms.loc/app\controllers\MainController - does not exist | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Router.php | String: 44
+==============
+[2021-03-03 20:22:55] Error: Controller: D:\Work\OS\OpenServer\domains\lms.loc/app\controllers\PageController - does not exist | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Router.php | String: 44
+==============

@@ -25,7 +25,7 @@ class ErrorHandler
     public function exceptionHandler($event)
     {
 
-        $this->logErrors($event->getMessage(), $event->getFile(), $event->getLine())->displayError('FATAL ERROR',
+        $this->logErrors($event->getMessage(), $event->getFile(), $event->getLine())->displayError($event->getCode(),
             $event->getMessage(), $event->getFile(), $event->getLine(), $event->getCode());
 
     }

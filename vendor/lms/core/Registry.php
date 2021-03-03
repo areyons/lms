@@ -33,7 +33,7 @@ class Registry
 
     // Get all properties
 
-    public function getProperties()
+    public static function getProperties()
     {
         return self::$properties;
     }

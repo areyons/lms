@@ -3,7 +3,7 @@
 //DEFAULT GLOBAL CONST
 
 
-define("DEBUG", false);                              // true-false dev mode
+define("DEBUG", true);                              // true-false dev mode
 
 define("ROOT", dirname(__DIR__));              // root dir
 define("WWW", ROOT . '/public');                    // public dir
@@ -15,9 +15,9 @@ define("CONFIG", ROOT . '/config');                 // config dir
 
 define("THEME", 'default');                         // Default Theme
 
-$app_path = "http://{$_SERVER['HTTP_HOST']}{$_SERVER['PHP_SELF']}";         // http://your_site.com/public/index.php
-$app_path = preg_replace("#[^/]+$#", '', $app_path);       // http://your_site.com/public/
-$app_path = str_replace('/public/','',$app_path);              // http://your_site.com
+$app_path = "http://{$_SERVER['HTTP_HOST']}{$_SERVER['PHP_SELF']}";         // http://yoursite.com/public/index.php
+$app_path = preg_replace("#[^/]+$#", '', $app_path);       // http://yoursite.com/public/
+$app_path = str_replace('/public/','',$app_path);              // http://yoursite.com
 
 define("PATH", $app_path);                          // http://your_site.com
 
