@@ -36,13 +36,18 @@ class Router
 
         if (self::matchRoute($url)) {
 
+            // get called controller
             $controller = 'app\controllers\\' . self::$route['prefix'] . self::$route['controller'] . 'Controller';
 
             if (class_exists($controller)) {
 
+                // create an object from the received controller class
                 $controllerObject = new $controller(self::$route);
+
+                // get called action
                 $action = self::lowerCamelCase(self::$route['action']) . 'Action';
 
+                // call method from the received controller class if its exist
                 if (method_exists($controllerObject, $action)) {
                     $controllerObject->$action();
                 } else {
@@ -59,7 +64,7 @@ class Router
 
     }
 
-    public static function matchRoute($url)        // search routes
+    public static function matchRoute($url) : bool      // search routes
     {
 
         foreach (self::$routes as $pattern => $route) {
@@ -102,12 +107,12 @@ class Router
         return false;
     }
 
-     // make first letter big in controller name, replace char '-' if its need
+     // make first letter big in the received controller name, replace char '-' to '' if its need
      protected static function upperCamelCase($name)
      {
          return str_replace(' ', '', ucwords(str_replace('-', ' ', $name)));
      }
-
+    // make first letter lower in the received action name
      protected  static function lowerCamelCase($name)
      {
         return lcfirst(self::upperCamelCase($name));
