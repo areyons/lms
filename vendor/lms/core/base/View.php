@@ -4,7 +4,7 @@
 namespace lms\base;
 
 
-abstract class Controller
+abstract class View
 {
 
     public $route;
@@ -13,29 +13,27 @@ abstract class Controller
     public $prefix;
     public $model;
 
+    public $template;
+
     public $data = [];   // datas from model
     public $meta = [];   // meta data
 
-    public function __construct($route)
+    public function __construct($route, string $template, $view, $meta)
     {
 
         $this->route = $route;
         $this->contrller = $route['controlller'];
-        $this->view = $route['action'];
+        $this->view = $view;
         $this->prefix = $route['prefix'];
         $this->model = $route['controlller'];
-
-    }
-
-    public function setData($data)
-    {
-        $this->data = $data;
-    }
-
-
-    public function setMeta(array $meta = [])
-    {
         $this->meta = $meta;
+
+        if ($template === false) {
+            $this->template;
+        } else {
+            $this->template = $template ?: TEMPLATE;
+        }
+
     }
 
 }

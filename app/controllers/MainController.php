@@ -4,15 +4,9 @@
 namespace app\controllers;
 
 
-class MainController
+
+class MainController extends AppController
 {
-
-    public function __construct($router)
-    {
-
-        debug($router);
-
-    }
 
     public function indexAction()
     {
