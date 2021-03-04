@@ -32,6 +32,8 @@ abstract class View
             $this->template;
         } else {
             $this->template = $template ?: TEMPLATE;
+
+            
         }
 
     }
