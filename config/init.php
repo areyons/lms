@@ -13,7 +13,7 @@ define("LIBS", ROOT . '/vendor/lms/core/libs');     // libs dir
 define("CACHE", ROOT . '/tmp/cache');               // cache dir
 define("CONFIG", ROOT . '/config');                 // config dir
 
-define("THEME", 'default');                         // Default Theme
+define("TEMPLATE", 'default');                         // Default Theme
 
 $app_path = "http://{$_SERVER['HTTP_HOST']}{$_SERVER['PHP_SELF']}";         // http://yoursite.com/public/index.php
 $app_path = preg_replace("#[^/]+$#", '', $app_path);       // http://yoursite.com/public/
