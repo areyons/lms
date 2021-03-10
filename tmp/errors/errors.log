@@ -1,0 +1,22 @@
+[2021-03-09 21:19:10] Error: Argument 2 passed to lms\base\View::__construct() must be of the type string, null given, called in D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\Controller.php on line 43 | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\View.php | String: 21
+==============
+[2021-03-09 21:19:11] Error: Argument 2 passed to lms\base\View::__construct() must be of the type string, null given, called in D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\Controller.php on line 43 | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\View.php | String: 21
+==============
+[2021-03-09 21:19:11] Error: Argument 2 passed to lms\base\View::__construct() must be of the type string, null given, called in D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\Controller.php on line 43 | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\View.php | String: 21
+==============
+[2021-03-09 21:19:12] Error: Argument 2 passed to lms\base\View::__construct() must be of the type string, null given, called in D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\Controller.php on line 43 | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\View.php | String: 21
+==============
+[2021-03-09 21:19:53] Error: Argument 2 passed to lms\base\View::__construct() must be of the type string, null given, called in D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\Controller.php on line 43 | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\View.php | String: 21
+==============
+[2021-03-09 21:19:54] Error: Argument 2 passed to lms\base\View::__construct() must be of the type string, null given, called in D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\Controller.php on line 43 | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\View.php | String: 21
+==============
+[2021-03-09 21:20:42] Error: Argument 2 passed to lms\base\View::__construct() must be of the type string, null given, called in D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\Controller.php on line 45 | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\View.php | String: 21
+==============
+[2021-03-09 21:20:42] Error: Argument 2 passed to lms\base\View::__construct() must be of the type string, null given, called in D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\Controller.php on line 45 | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\View.php | String: 21
+==============
+[2021-03-09 21:20:43] Error: Argument 2 passed to lms\base\View::__construct() must be of the type string, null given, called in D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\Controller.php on line 45 | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\View.php | String: 21
+==============
+[2021-03-09 21:20:57] Error: Argument 2 passed to lms\base\View::__construct() must be of the type string, null given, called in D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\Controller.php on line 45 | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\View.php | String: 21
+==============
+[2021-03-09 21:20:58] Error: Argument 2 passed to lms\base\View::__construct() must be of the type string, null given, called in D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\Controller.php on line 45 | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\View.php | String: 21
+==============

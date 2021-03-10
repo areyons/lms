@@ -8,10 +8,12 @@ abstract class Controller
 {
 
     public $route;
-    public $contrller;
+    public $controller;
     public $view;
     public $prefix;
     public $model;
+
+    public $template;
 
     public $data = [];   // datas from model
     public $meta = [];   // meta data
@@ -20,10 +22,10 @@ abstract class Controller
     {
 
         $this->route = $route;
-        $this->contrller = $route['controlller'];
+        $this->controller = $route['controller'];
         $this->view = $route['action'];
         $this->prefix = $route['prefix'];
-        $this->model = $route['controlller'];
+        $this->model = $route['controller'];
 
     }
 
@@ -38,4 +40,9 @@ abstract class Controller
         $this->meta = $meta;
     }
 
+    public function getView()
+    {
+        $viewObject = new View($this->route, $this->template, $this->view, $this->meta);
+        $viewObject->render($this->data);
+    }
 }

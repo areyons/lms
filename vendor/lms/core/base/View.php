@@ -4,11 +4,11 @@
 namespace lms\base;
 
 
-abstract class View
+class View
 {
 
     public $route;
-    public $contrller;
+    public $controller;
     public $view;
     public $prefix;
     public $model;
@@ -18,14 +18,14 @@ abstract class View
     public $data = [];   // datas from model
     public $meta = [];   // meta data
 
-    public function __construct($route, string $template, $view, $meta)
+    public function __construct($route, $template, $view, $meta)
     {
 
         $this->route = $route;
-        $this->contrller = $route['controlller'];
+        $this->controller = $route['controller'];
         $this->view = $view;
         $this->prefix = $route['prefix'];
-        $this->model = $route['controlller'];
+        $this->model = $route['controller'];
         $this->meta = $meta;
 
         if ($template === false) {
@@ -35,6 +35,13 @@ abstract class View
 
             
         }
+
+    }
+
+    public function render($data)
+    {
+
+        echo $viewFile = APP . "/views/{$this->prefix}{$this->controller}/{$this->view}.php";
 
     }
 
