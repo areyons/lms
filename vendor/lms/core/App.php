@@ -4,6 +4,8 @@
 namespace lms;
 
 
+use lms\base\Model;
+
 class App
 {
 

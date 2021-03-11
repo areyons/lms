@@ -4,9 +4,14 @@
 namespace app\controllers;
 
 
+use app\models\AppModel;
 use lms\base\Controller;
 
 abstract class AppController extends Controller
 {
-
+    public function __construct($route)
+    {
+        parent::__construct($route);
+        new AppModel();
+    }
 }

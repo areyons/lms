@@ -108,3 +108,21 @@
 ==============
 [2021-03-11 19:39:34] Error: Call to undefined function lms\base\View() | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\Controller.php | String: 48
 ==============
+[2021-03-11 20:26:22] Error: Class 'R' not found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Db.php | String: 15
+==============
+[2021-03-11 20:29:24] Error: Class 'lms\R' not found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Db.php | String: 15
+==============
+[2021-03-11 20:29:25] Error: Class 'lms\R' not found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Db.php | String: 15
+==============
+[2021-03-11 20:29:26] Error: Class 'lms\R' not found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Db.php | String: 15
+==============
+[2021-03-11 20:29:35] Error: syntax error, unexpected '\' (T_NS_SEPARATOR), expecting identifier (T_STRING) | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Db.php | String: 15
+==============
+[2021-03-11 20:29:41] Error: Class 'R' not found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Db.php | String: 15
+==============
+[2021-03-11 20:29:42] Error: Class 'R' not found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Db.php | String: 15
+==============
+[2021-03-11 20:29:43] Error: Class 'R' not found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Db.php | String: 15
+==============
+[2021-03-11 20:35:26] Error: syntax error, unexpected ';' | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Db.php | String: 17
+==============

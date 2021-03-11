@@ -3,6 +3,7 @@
 
 namespace lms\base;
 
+use lms\Db;
 
 abstract class Model
 {
@@ -14,6 +15,7 @@ abstract class Model
      public function __construct()
      {
 
+        Db::instance();
 
      }
 

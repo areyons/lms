@@ -9,7 +9,9 @@
     <title><?php echo $this->meta['title'] ?></title>
 </head>
 <body>
+<h2>Hello default template!</h2>
 
         <?php echo $content;?>
+
 </body>
 </html>
