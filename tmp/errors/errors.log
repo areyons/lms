@@ -20,3 +20,71 @@
 ==============
 [2021-03-09 21:20:58] Error: Argument 2 passed to lms\base\View::__construct() must be of the type string, null given, called in D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\Controller.php on line 45 | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\View.php | String: 21
 ==============
+[2021-03-11 15:59:00] Error: Call to undefined function Exception() | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\View.php | String: 49
+==============
+[2021-03-11 16:00:05] Error: View not found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\View.php | String: 49
+==============
+[2021-03-11 16:00:31] Error: View D:\Work\OS\OpenServer\domains\lms.loc/app/views/Main/ index.php not found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\View.php | String: 49
+==============
+[2021-03-11 16:00:42] Error: View: D:\Work\OS\OpenServer\domains\lms.loc/app/views/Main/ index.php - not found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\View.php | String: 49
+==============
+[2021-03-11 16:02:20] Error: View: D:\Work\OS\OpenServer\domains\lms.loc/app/views/Main/ index.php - not found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\View.php | String: 49
+==============
+[2021-03-11 16:02:37] Error: Controller: app\controllers\AwdawController - does not exist | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\Router.php | String: 61
+==============
+[2021-03-11 16:02:52] Error: View: D:\Work\OS\OpenServer\domains\lms.loc/app/views/Main/ index.php - not found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\View.php | String: 49
+==============
+[2021-03-11 16:05:30] Error: View: D:\Work\OS\OpenServer\domains\lms.loc/app/views/Main/ index.php - not found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\View.php | String: 49
+==============
+[2021-03-11 16:05:31] Error: View: D:\Work\OS\OpenServer\domains\lms.loc/app/views/Main/ index.php - not found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\View.php | String: 49
+==============
+[2021-03-11 16:05:31] Error: View: D:\Work\OS\OpenServer\domains\lms.loc/app/views/Main/ index.php - not found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\View.php | String: 49
+==============
+[2021-03-11 16:05:31] Error: View: D:\Work\OS\OpenServer\domains\lms.loc/app/views/Main/ index.php - not found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\View.php | String: 49
+==============
+[2021-03-11 16:05:31] Error: View: D:\Work\OS\OpenServer\domains\lms.loc/app/views/Main/ index.php - not found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\View.php | String: 49
+==============
+[2021-03-11 16:05:32] Error: View: D:\Work\OS\OpenServer\domains\lms.loc/app/views/Main/ index.php - not found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\View.php | String: 49
+==============
+[2021-03-11 16:05:36] Error: View: D:\Work\OS\OpenServer\domains\lms.loc/app/views/Main/ index.php - not found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\View.php | String: 49
+==============
+[2021-03-11 16:05:36] Error: View: D:\Work\OS\OpenServer\domains\lms.loc/app/views/Main/ index.php - not found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\View.php | String: 49
+==============
+[2021-03-11 16:05:36] Error: View: D:\Work\OS\OpenServer\domains\lms.loc/app/views/Main/ index.php - not found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\View.php | String: 49
+==============
+[2021-03-11 16:05:36] Error: View: D:\Work\OS\OpenServer\domains\lms.loc/app/views/Main/ index.php - not found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\View.php | String: 49
+==============
+[2021-03-11 16:05:36] Error: View: D:\Work\OS\OpenServer\domains\lms.loc/app/views/Main/ index.php - not found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\View.php | String: 49
+==============
+[2021-03-11 16:05:37] Error: View: D:\Work\OS\OpenServer\domains\lms.loc/app/views/Main/ index.php - not found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\View.php | String: 49
+==============
+[2021-03-11 16:07:28] Error: View: D:\Work\OS\OpenServer\domains\lms.loc/app/views/Main/ index.php - not found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\View.php | String: 49
+==============
+[2021-03-11 16:07:53] Error: View: D:\Work\OS\OpenServer\domains\lms.loc/app/views/Main/ index.php - not found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\View.php | String: 49
+==============
+[2021-03-11 16:08:01] Error: View: D:\Work\OS\OpenServer\domains\lms.loc/app/views/Main/ index.php - not found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\View.php | String: 49
+==============
+[2021-03-11 16:08:07] Error: View: D:\Work\OS\OpenServer\domains\lms.loc/app/views/Main/ index.php - not found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\View.php | String: 49
+==============
+[2021-03-11 16:08:07] Error: View: D:\Work\OS\OpenServer\domains\lms.loc/app/views/Main/ index.php - not found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\View.php | String: 49
+==============
+[2021-03-11 16:39:34] Error: Template: default - not found | File: D:\Work\OS\OpenServer\domains\lms.loc\vendor\lms\core\base\View.php | String: 67
+==============
+[2021-03-11 16:50:22] Error: Call to undefined function getMeta() | File: D:\Work\OS\OpenServer\domains\lms.loc\app\views\templates\default.php | String: 8
+==============
+[2021-03-11 17:08:00] Error: Call to undefined function getMeta() | File: D:\Work\OS\OpenServer\domains\lms.loc\app\views\templates\default.php | String: 8
+==============
+[2021-03-11 17:09:57] Error: Call to undefined function getMeta() | File: D:\Work\OS\OpenServer\domains\lms.loc\app\views\templates\default.php | String: 8
+==============
+[2021-03-11 17:09:58] Error: Call to undefined function getMeta() | File: D:\Work\OS\OpenServer\domains\lms.loc\app\views\templates\default.php | String: 8
+==============
+[2021-03-11 17:09:58] Error: Call to undefined function getMeta() | File: D:\Work\OS\OpenServer\domains\lms.loc\app\views\templates\default.php | String: 8
+==============
+[2021-03-11 17:09:59] Error: Call to undefined function getMeta() | File: D:\Work\OS\OpenServer\domains\lms.loc\app\views\templates\default.php | String: 8
+==============
+[2021-03-11 17:09:59] Error: Call to undefined function getMeta() | File: D:\Work\OS\OpenServer\domains\lms.loc\app\views\templates\default.php | String: 8
+==============
+[2021-03-11 17:09:59] Error: Call to undefined function getMeta() | File: D:\Work\OS\OpenServer\domains\lms.loc\app\views\templates\default.php | String: 8
+==============
+[2021-03-11 17:10:00] Error: Call to undefined function getMeta() | File: D:\Work\OS\OpenServer\domains\lms.loc\app\views\templates\default.php | String: 8
+==============

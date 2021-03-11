@@ -10,7 +10,7 @@ Router::addRoute('^adm/?(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$', ['prefi
 
 // default routes for user side app
 
-Router::addRoute('^$', ['controller' => 'Main', 'action' => ' index']);
+Router::addRoute('^$', ['controller' => 'Main', 'action' => 'index']);
 
 Router::addRoute('^(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$');
 

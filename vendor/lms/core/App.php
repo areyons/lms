@@ -22,7 +22,7 @@ class App
 
         $this->getSettings();                                   // get settings
 
-        Router::dispatch($query);                               // sent query to the router
+        Router::dispatch($query);                               // send query to the router
 
 
     }

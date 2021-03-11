@@ -47,15 +47,17 @@ class Router
                 // get called action
                 $action = self::lowerCamelCase(self::$route['action']) . 'Action';
 
-                // get view
-                $controllerObject->getView();
-
                 // call method from the received controller class if its exist
                 if (method_exists($controllerObject, $action)) {
+
                     $controllerObject->$action();
+
                 } else {
                     throw new \Exception("Method: $controller::$action - does not exist", 404);
                 }
+
+                // get view
+                $controllerObject->getView();
 
             } else {
                 throw new \Exception("Controller: $controller - does not exist", 404);

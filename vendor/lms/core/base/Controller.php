@@ -27,6 +27,7 @@ abstract class Controller
         $this->prefix = $route['prefix'];
         $this->model = $route['controller'];
 
+
     }
 
     public function setData($data)
@@ -35,9 +36,11 @@ abstract class Controller
     }
 
 
-    public function setMeta(array $meta = [])
+    public function setMeta($title = '', $desc = '', $keywords = '')
     {
-        $this->meta = $meta;
+        $this->meta['title'] = $title;
+        $this->meta['desc'] = $desc;
+        $this->meta['keywords'] = $keywords;
     }
 
     public function getView()
