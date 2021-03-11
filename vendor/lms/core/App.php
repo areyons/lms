@@ -24,8 +24,8 @@ class App
 
         Router::dispatch($query);                               // send query to the router
 
-
     }
+
     protected function getSettings()
     {
         $settings = require_once CONFIG . '/settings.php';

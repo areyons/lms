@@ -31,9 +31,13 @@ class Router
 
     }
 
-    public static function dispatch($url)          // take url
+    // take url from App.php
+    public static function dispatch($url)
     {
+        // extract params from url
+        $url = self::removeQueryString($url);
 
+        // checked if routes exists in url
         if (self::matchRoute($url)) {
 
             // get called controller
@@ -90,7 +94,7 @@ class Router
                     $route['action'] = 'index';
                 }
 
-                // set default prefix
+                // set default prefix as \
 
                 if(!isset($route['prefix'])) {
                     $route['prefix'] = '';
@@ -110,6 +114,20 @@ class Router
         }
 
         return false;
+    }
+
+    // explode params from url
+    protected static function removeQueryString($url)
+    {
+
+        if($url) {
+            $params = explode('&', $url);
+            if(false === strpos($params[0], '=')) {
+                return rtrim($params[0], '/');
+            }
+        }
+
+
     }
 
      // make first letter big in the received controller name, replace char '-' to '' if its need
