@@ -22,6 +22,10 @@ class Db
             echo 'connected';
         }
 
+        \R::freeze(true);
 
+        if (DEBUG) {
+            \R::debug(true, 1);
+        }
     }
 }
